@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  width: 370px;
+  height: 482px;
+  border: 1px solid gray;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 125px;
+  border-radius: 5px;
+}
+
+.top {
+  background: rgb(52, 52, 142);
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.amount {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.amount input {
+  width: 70%;
+  height: 13px;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.service {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.service select {
+  display: block;
+  margin-left: 27px;
+  margin-right: auto;
+  width: 77%;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.billShare {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.billShare input {
+  width: 70%;
+  height: 13px;
+  padding: 12px;
+  margin-left: 27px;
+  border-radius: 5px;
+}
+
+#btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: aliceblue;
+  background: red;
+  border: 0ch;
+  padding: 5px;
+  width: 120px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#btn:hover {
+  background: black;
+}
+
+.tip h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tip p {
+  text-align: center;
+}
